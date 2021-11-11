@@ -1,8 +1,14 @@
-// const profileDataArgs = process.argv.slice(2, process.argv.length);
-// console.log(profileDataArgs);
+const profileDataArgs = process.argv.slice(2, process.argv.length);
 
-const message = 'Hello Node!';
-message = 'Goodbye Node!';
+const printProfileData = profileDataArr => {
+  for (let i=0; i< profileDataArr.length; i++) {
+    console.log(profileDataArr[i]);
+  }
 
-const sum = 5 + 3;
-sum += 1;
+  console.log('================');
+
+  // Is the same as this...
+  profileDataArr.forEach((profileItem) => console.log(profileItem));
+};
+
+printProfileData(profileDataArgs);
