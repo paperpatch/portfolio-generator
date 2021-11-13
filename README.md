@@ -12,6 +12,7 @@
 
 ## Features
 :newspaper:
+
 Uses criterias and prompts for user inputs to build their portfolio.
 
 Built With:
@@ -26,8 +27,6 @@ Requires Node.js and npm (Node Package Manager). Go to [Node's website](https://
 
 `npm init`
 
-`npm install inquirer`
-
 ## Usage
 
 :computer:
@@ -38,4 +37,6 @@ Type `node app` within the terminal to start the series of user prompts and crit
 
 ## Contributing
 
-:octocat: [Pat Chen](https://github.com/paperpatch)
+:octocat:
+
+[Pat Chen](https://github.com/paperpatch)
