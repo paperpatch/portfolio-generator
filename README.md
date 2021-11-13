@@ -33,7 +33,7 @@ Requires Node.js and npm (Node Package Manager). Go to [Node's website](https://
 
 Fork this repository and open the files within to access the command prompt.
 
-Type `node app` within the terminal to start the series of user prompts and criteria.
+Type `node app` within the terminal to start the series of user prompts and criteria. This will create a new index.html and style.css within the `dist` folder.
 
 ## Contributing
 
